@@ -1,0 +1,17 @@
+name: Debug Repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List Files
+        run: |
+          pwd
+          ls -la
+          find . -name "*wrapper*"
