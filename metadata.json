@@ -1,0 +1,6 @@
+{
+  "name": "Nhật ký của bé",
+  "description": "Ứng dụng lưu trữ nhật ký trưởng thành cho bé, tích hợp AI phân tích ảnh, timeline kỷ niệm và báo cáo hàng tháng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
